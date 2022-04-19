@@ -109,7 +109,31 @@ h2:hover {
     text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1600px) {
+    .gallery {
+        padding: 30px;
+    }
+
+    .dog {
+        width: 246px;
+        height: 360px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .gallery {
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .dog {
+        width: 246px;
+        height: 360px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
     .header {
         flex-direction: column;
         justify-content: center;
@@ -129,4 +153,6 @@ h2:hover {
         margin-top: 30px;
         gap: 15px;
     }
+
+    
 }
